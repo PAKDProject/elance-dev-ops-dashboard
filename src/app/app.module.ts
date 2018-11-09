@@ -24,6 +24,7 @@ import { ViewComponent } from './view/view.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MainDashboardComponent } from './main-dashboard/main-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { FooterComponent } from './components/footer/footer.component';
     ViewComponent,
     SidebarComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    MainDashboardComponent
   ],
   imports: [
     BrowserModule,
