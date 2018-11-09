@@ -19,7 +19,7 @@
   &[data-color="#{$data-color}"] {
     li.active > a{
         background: $color;
-        @include shadow-big-color($color-shadow);
+        @include shadow-big-color(#188C72);
     }
   }
 }
